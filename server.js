@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const APP_PORT = process.env.PORT || 3000;
-const ADMIN_CODE = '008811';
+const ADMIN_CODE = '86512345689124';
 const DB_PATH = path.join(__dirname, 'data', 'db.json');
 const UPLOAD_DIR = path.join(__dirname, 'uploads');
 if (!fs.existsSync(UPLOAD_DIR)) fs.mkdirSync(UPLOAD_DIR, { recursive: true });

@@ -1,5 +1,5 @@
 const express = require('express');
-const session = require('express-session');
+const cookieSession = require('cookie-session');
 const multer = require('multer');
 const bcrypt = require('bcryptjs');
 const fs = require('fs');
